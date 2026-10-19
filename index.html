@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Plastia — CRM para clínicas de cirurgia plástica e estética</title>
+<meta name="description" content="Plastia organiza os leads que chegam pelo WhatsApp em clínicas de cirurgia plástica e estética: triagem, funil, tarefas e indicadores.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --ink: #1C1A1B;
+    --muted: #5F5B5D;
+    --accent: #8E2F4E;
+    --accent-ink: #6E2139;
+    --tint: #F6E9EE;
+    --bg: #F4F4F2;
+    --surface: #FFFFFF;
+    --border: #E3E2DE;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; }
+  body {
+    background: var(--bg);
+    color: var(--ink);
+    font-family: 'Geist', system-ui, -apple-system, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  a { color: var(--accent); }
+  a:hover { color: var(--accent-ink); }
+  .wrap { max-width: 960px; margin: 0 auto; padding: 0 20px; }
+  header { padding: 28px 0; }
+  .logo { font-weight: 700; font-size: 22px; letter-spacing: -0.02em; color: var(--ink); text-decoration: none; }
+  .logo span { color: var(--accent); }
+  .hero { padding: 56px 0 64px; }
+  .hero h1 { font-size: clamp(32px, 5vw, 48px); line-height: 1.1; letter-spacing: -0.03em; margin: 0 0 20px; max-width: 720px; }
+  .hero p { font-size: 19px; color: var(--muted); max-width: 620px; margin: 0 0 32px; }
+  .cta { display: inline-block; background: var(--accent); color: #fff; text-decoration: none; font-weight: 600; padding: 14px 22px; border-radius: 12px; }
+  .cta:hover { background: var(--accent-ink); color: #fff; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 16px; padding-bottom: 72px; }
+  .card { background: var(--surface); border: 1px solid var(--border); border-radius: 16px; padding: 24px; }
+  .card h2 { font-size: 17px; margin: 0 0 8px; }
+  .card p { margin: 0; color: var(--muted); font-size: 15px; }
+  .dot { width: 32px; height: 32px; border-radius: 10px; background: var(--tint); margin-bottom: 16px; display: grid; place-items: center; color: var(--accent); font-weight: 700; }
+  footer { border-top: 1px solid var(--border); padding: 28px 0 40px; font-size: 14px; color: var(--muted); }
+  footer .row { display: flex; flex-wrap: wrap; gap: 8px 24px; justify-content: space-between; }
+</style>
+</head>
+<body>
+  <header>
+    <div class="wrap"><a class="logo" href="/">Plast<span>ia</span></a></div>
+  </header>
+
+  <main class="wrap">
+    <section class="hero">
+      <h1>Nenhum lead da sua clínica se perde no WhatsApp.</h1>
+      <p>A Plastia organiza as conversas que chegam no WhatsApp da clínica de cirurgia plástica e estética: triagem, funil de atendimento, tarefas e indicadores, sem trocar de número e sem planilha.</p>
+      <a class="cta" href="mailto:contato@plastia.net">Fale com a gente</a>
+    </section>
+
+    <section class="grid" aria-label="O que a Plastia faz">
+      <div class="card">
+        <div class="dot">1</div>
+        <h2>WhatsApp integrado</h2>
+        <p>Conecta o número que a clínica já usa, pela integração oficial da Meta. A equipe continua respondendo pelo celular, se quiser.</p>
+      </div>
+      <div class="card">
+        <div class="dot">2</div>
+        <h2>Triagem e funil</h2>
+        <p>Cada conversa vira lead, paciente ou outro assunto. Os leads seguem um funil com as etapas da sua clínica.</p>
+      </div>
+      <div class="card">
+        <div class="dot">3</div>
+        <h2>Ninguém sem resposta</h2>
+        <p>Conversas aguardando resposta aparecem primeiro, com o tempo de espera. Tarefas lembram o próximo passo de cada lead.</p>
+      </div>
+      <div class="card">
+        <div class="dot">4</div>
+        <h2>Dados protegidos</h2>
+        <p>Infraestrutura na Amazon Web Services em São Paulo, com dados criptografados e isolados por clínica, tratados conforme a LGPD.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap row">
+      <div>
+        <strong>GUSTAVO HENRIQUE CARVALHO</strong><br>
+        CNPJ 42.198.415/0001-61<br>
+        R. Duque de Caxias, 450, Sala 801, Centro — Uberlândia, MG, CEP 38400-901
+      </div>
+      <div>
+        <a href="mailto:contato@plastia.net">contato@plastia.net</a><br>
+        <a href="/privacidade.html">Política de privacidade</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
